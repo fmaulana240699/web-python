@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if greeting %}
+	<h2 align="center"> {{greeting}} </h2>
+{% else %}
+		<h2> Error </h2>
+{% endif %}
+<p> Click Here To <a href="/logout"> Logout </a><br/></p>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2 align="center"> Please Fill Out This Form To Login</h2>
+<div align="center">	
+	<div align="center" style="background-color: lightblue; width: 350px; height: 250;"> 
+		<form action="" method="POST">
+			Username: <input type="text" name="username">
+			<br/>
+			Password: <input type="password" name="password">
+			<br/>
+			<input type="submit">
+			<p> Don't Have An Account? <a href="/register"> Register Now! </a><br/></p>
+		</form>
+	</div>
+</div>
+{% endblock %}
